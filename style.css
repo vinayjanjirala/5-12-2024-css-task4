@@ -1,0 +1,44 @@
+.container{
+
+    /* height: 800px; */
+    
+    /* border: 2px solid black; */
+    text-align: center;
+
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8{
+    /* height: 300px; */
+    width: 350px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    
+    
+    
+}
+img{
+    width: 100%;
+    
+}
+p{  
+    color: white;
+    background-color: black;
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 8px;
+    
+}
